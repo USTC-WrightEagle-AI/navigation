@@ -14,10 +14,6 @@
 
   <!-- Localization -->
   <include file="$(find jh_localization)/launch/localization.launch"/>
-  
-  <!-- rviz -->
-  <group if="$(arg open_rviz)"> 
-    <node pkg="rviz" type="rviz" name="rviz" required="true"
-          args="-d $(find nav_bringup)/rviz/nav.rviz"/>
-  </group>
+
+
 </launch>
