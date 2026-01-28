@@ -14,7 +14,7 @@ This repository contains the navigation stack for the Robocup@Home team.
 1. Clone this repository:
    ```bash
    git clone https://github.com/USTC-WrightEagle-AI/navigation.git
-   cd Team_Navigation_Repo
+   cd navigation
    ```
 
 2. Install dependencies:
